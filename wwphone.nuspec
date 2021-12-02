@@ -3,7 +3,7 @@
   <metadata>
     <id>wwphone</id>
     <version>3.4.9</version>
-    <!-- <packageSourceUrl>Where is this Chocolatey package located (think GitHub)? packageSourceUrl is highly recommended for the community feed</packageSourceUrl>-->
+    <packageSourceUrl>https://github.com/open-circle-ltd/chocolatey.wwphone</packageSourceUrl>
     <owners>Benaiah Matthew Catherasoo, Open Circle AG</owners>
     <title>wwphone (Install)</title>
     <authors>wwcom</authors>
