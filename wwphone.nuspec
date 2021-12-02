@@ -5,7 +5,7 @@
     <version>3.4.9</version>
     <packageSourceUrl>https://github.com/open-circle-ltd/chocolatey.wwphone</packageSourceUrl>
     <owners>Benaiah Matthew Catherasoo, Open Circle AG</owners>
-    <title>wwphone (Install)</title>
+    <title>wwphone</title>
     <authors>wwcom</authors>
     <projectUrl>https://www.wwcom.ch/</projectUrl>
     <iconUrl>https://www.wwcom.ch/assets/images/wwcom.png</iconUrl>
