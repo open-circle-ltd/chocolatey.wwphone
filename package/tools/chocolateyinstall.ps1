@@ -1,15 +1,16 @@
 ﻿$ErrorActionPreference = 'Stop';
 $toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
-$url        = 'https://wwcom.ch/downloads/wwphone_3_4_10.exe'
+$urlPackage      = 'https://wwcom.ch/downloads/wwphone_3_4_10.exe'
+$checksumPackage = 'F146794C5E4A662BDFBABDCBCB207BA3A5FACA89F5777397F23EB18DAD9E925E'
 
 $packageArgs = @{
   packageName   = $env:ChocolateyPackageName
   unzipLocation = $toolsDir
   fileType      = 'EXE'
-  url           = $url
+  url           = $urlPackage
   softwareName  = 'wwphone*'
-  checksum      = 'F146794C5E4A662BDFBABDCBCB207BA3A5FACA89F5777397F23EB18DAD9E925E'
-  checksumType  = 'sha256'
+  checksum      = $checksumPackage
+  checksumType  = 'sha512'
   silentArgs   = '/VERYSILENT /SUPPRESSMSGBOXES /NORESTART /SP-'
 }
 
