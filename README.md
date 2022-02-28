@@ -19,4 +19,4 @@ choco install wwphone
 
 ## Copyright
 
-(c) 2021, Open Circle AG
+(c) 2022, Open Circle AG
