@@ -1,5 +1,7 @@
 ﻿# Chocolatey Package: wwphone
 
+ [![Chocolatey](https://img.shields.io/chocolatey/v/wwphone?label=package%20version)](https://community.chocolatey.org/packages/wwphone) [![Chocolatey](https://img.shields.io/chocolatey/dt/wwphone?label=package%20downloads&style=flat-square)](https://community.chocolatey.org/packages/wwphone)
+
 ## Description
 
 wwphone is a Softphone Solution from wwcom
