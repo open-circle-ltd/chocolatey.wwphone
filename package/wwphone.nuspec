@@ -15,7 +15,7 @@
     <projectSourceUrl>https://wiki.wwcom.ch/display/WPW/Downloads</projectSourceUrl>
     <docsUrl>https://wiki.wwcom.ch/pages/viewpage.action?pageId=1474647</docsUrl>
     <tags>wwphone Softphone wwcom</tags>
-    <summary>wwphone</summary>
+    <summary>wwphone client</summary>
     <description><![CDATA[wwphone is a Softphone Solution from wwcom
 ## Description
 The wwphone can be operated either as a standalone software solution or in conjunction with a hardphone. It is not a normal softphone: it has been specifically tuned to the wwcommunicator and, thanks to its own interfaces, it has a range of functions that would not be possible with the normal connection of a SIP softphone to a SIP PBX.
