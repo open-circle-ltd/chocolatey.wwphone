@@ -23,7 +23,7 @@ searchreplace:
 # readme to description
 readme:
   start: 4
-  end: 6
+  end: 24
 
 # deploy
 deploy:
