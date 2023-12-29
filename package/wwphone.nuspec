@@ -8,6 +8,7 @@
     <title>wwphone</title>
     <authors>wwcom</authors>
     <projectUrl>https://www.wwcom.ch/</projectUrl>
+    <releaseNotes>https://doku.wwcom.ch/books/versions-info/page/wwphone-ab-version-400</releaseNotes>
     <iconUrl>https://cdn.jsdelivr.net/gh/open-circle-ltd/chocolatey.wwphone@master/icon/wwphone_icon.jpg</iconUrl>
     <copyright>2022 wwcom</copyright>
     <licenseUrl>https://www.wwcom.ch/home/disclaimer</licenseUrl>
@@ -42,7 +43,6 @@ The wwphone can be operated either as a standalone software solution or in conju
 choco install wwphone
 ```
 </description>
-    <releaseNotes>https://wiki.wwcom.ch/display/WPW/wwphone+Windows-Versionen</releaseNotes>
   </metadata>
   <files>
     <file src="tools\**" target="tools"/>
