@@ -5,10 +5,7 @@
 changelog: "https://release-monitoring.org/api/v2/projects/?name=wwphone"
 
 # Regex for Version
-version: "{{ register_changelog.content |
-  regex_search('[0-9]+_[0-9]+_[0-9]+') |
-  regex_replace('[-|_]', '.') 
-  }}"
+version: "{{ register_changelog.json['latest_version'] }}"
 
 # Download URL
 url: "https://wwcom.ch/downloads/wwphone_{{ version | regex_replace('[.]', '_') }}.exe"
