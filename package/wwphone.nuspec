@@ -42,7 +42,10 @@ The wwphone can be operated either as a standalone software solution or in conju
 ```ps1
 choco install wwphone
 ```
-</description>
+    </description>
+    <dependencies>
+      <dependency id="vcredist140" />
+    </dependencies>
   </metadata>
   <files>
     <file src="tools\**" target="tools"/>
