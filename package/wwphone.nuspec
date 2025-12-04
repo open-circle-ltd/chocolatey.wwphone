@@ -10,7 +10,7 @@
     <projectUrl>https://www.wwcom.ch/</projectUrl>
     <releaseNotes>https://doku.wwcom.ch/books/versions-info/page/wwphone-ab-version-400</releaseNotes>
     <iconUrl>https://cdn.jsdelivr.net/gh/open-circle-ltd/chocolatey.wwphone@master/icon/wwphone_icon.jpg</iconUrl>
-    <copyright>2022 wwcom</copyright>
+    <copyright>2025 wwcom</copyright>
     <licenseUrl>https://www.wwcom.ch/home/disclaimer</licenseUrl>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
     <projectSourceUrl>https://doku.wwcom.ch/books/downloads/page/wwcom-software</projectSourceUrl>
@@ -39,8 +39,14 @@ The wwphone can be operated either as a standalone software solution or in conju
 
 ## Installation
 
+For 64-bit Version
 ```ps1
 choco install wwphone
+```
+
+For 32-bit Version:
+```ps1
+choco install wwphone --params="'/32bit'"
 ```
 </description>
     <dependencies>

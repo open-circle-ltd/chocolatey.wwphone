@@ -24,8 +24,14 @@ The wwphone can be operated either as a standalone software solution or in conju
 
 ## Installation
 
+For 64-bit Version
 ```ps1
 choco install wwphone
+```
+
+For 32-bit Version:
+```ps1
+choco install wwphone --params="'/32bit'"
 ```
 
 ## Author
@@ -35,4 +41,4 @@ choco install wwphone
 
 ## Copyright
 
-&copy; 2022, Open Circle AG
+&copy; 2025, Open Circle AG
