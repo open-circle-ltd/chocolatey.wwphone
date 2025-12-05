@@ -1,10 +1,10 @@
 ﻿$ErrorActionPreference = 'Stop';
 $PackageParameters = Get-PackageParameters
 $toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
-$url = 'https://wwcom.ch/downloads/wwphone_4_2_7.exe'
-$url64 = 'https://wwcom.ch/downloads/cti64_4_2_7.exe'
-$checksum = 'f747a0f69d01cb9a3fdd23b75536f6104ab79ef08d180a485514a4866c2eb85d2d20d95bbd2208b1d63587228fd25a39812fec6ad6b8e02e31a431af31edaa13'
-$checksum64 = '64fb13603af1ba17b312e17381dcad273d1bf18c2aa303d59b813983f898b7d51136de327a7b6d8d4e75860f5aa3a07e744dc758aa08fac4f68b065e0a9ae1b9'
+$url = 'https://wwcom.ch/downloads/wwphone_4_2_8.exe'
+$url64 = 'https://wwcom.ch/downloads/cti64_4_2_8.exe'
+$checksum = '171462a9b32ba34e0e6690a080e430b53a332443160534dc7fac43f014a9502ef62a710ab9ff49f8d3dd0a37febd51f9440acc9c61015e55fd679d1885afc26e'
+$checksum64 = '6fc77610fd0658f3c7e08057b50dccd9335924837a01568de6b98214469f8d2e9ce83698cb2ad136182eaf26a42d201c32224095057e493292754bdb93eef351'
 
 # Prep 32bit install
 $32bit = $false
